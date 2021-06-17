@@ -38,7 +38,8 @@
             "esp8266.rts": "PE_13",
             "esp8266.cts": "PC_8",
             "esp8266.rst": "PC_13",
-            "esp8266.provide-default": true
+            "esp8266.provide-default": true,
+            "target.macros_add" : ["MBEDTLS_SHA1_C"]
         }
     }
 }
